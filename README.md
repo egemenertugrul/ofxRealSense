@@ -29,7 +29,7 @@ __To create new project:__
 * under "C\C++" > "General" > "Additional Include Directories", add:  
 $(RSSDK_DIR)include;
 * under "Linker" > "General" > Additional Library Directories", add:  
-$(RSSDK_DIR)lib\$(Platform);
+$(RSSDK_DIR)lib\\$(Platform);
 
 example:  
 ![additional include and library directories](https://raw.githubusercontent.com/tyhenry/ofxRealSense/master/readme_addDirs.png)
